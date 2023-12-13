@@ -1,0 +1,22 @@
+BODY {margin-left:300рх;} 
+Hl,H2,H3,H4,H5,H6 
+{ 
+ text-align: right; 
+ color: black; 
+ font-family: "Times New Roman"; 
+    background-color: khaki;
+}
+h2{
+    background-color: #0094ffff;
+    
+}
+strong{
+    color: darkgreen;
+    font-family: "Arial Cyr"
+}
+button{
+    background-color: yellow;
+}
+p{
+    background-color: khaki;
+}

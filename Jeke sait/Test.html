@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Тесттер</title> 
+</head> <button onclick="Home()">Басты бет</button>
+
+<script>
+function Home() {
+  var url = "Qazaqstan tarixy.html";
+  window.location.href = url;
+}
+</script>
+<body bgcolor=aquamarine> 
+    <?php
+    $connection=mysqli_connect('localhost','root','','qazaqstan tarixy test');
+    ?>
+    <h2 align=center>Қазақстан тарихы бойынша тесстер</h2> 
+    <form action="#" method="post"> 
+<ol> 
+    Аты-жөніңізді енгізіңіз: 
+ <INPUT TYPE="text"> 
+<br>
+  Пароль 10 символдан аспауы керек: 
+ <input type="password" id="question1" name="question1" required minlength="10">
+<li> 
+<label for="question1">Қазақ жерінде өмір сүрген тайпа</label> <br>
+ <input type="radio" id="question1a" name="question1" value="a" required>Викингтер
+ <input type="radio" id="question1с" name="question1" value="с"> Аборигендер
+ <input type="radio" id="question1b" name="question1" value="b"> Ешқайсысы
+ <input type="radio" id="question1b" name="question1" value="b">Сақтар</li> 
+<br>
+     <li> 
+<label for="question2">Қазақ хандығы қай жылы құрылды</label> <br>
+ <input type="radio" id="question2a" name="question2" value="a" required> 1465ж
+ <input type="radio" id="question2с" name="question2" value="с"> 1450ж
+ <input type="radio" id="question2b" name="question2" value="b"> 1471ж
+ <input type="radio" id="question2b" name="question2" value="b">1991ж</li> 
+<br>
+<li> 
+    <label for="question3">Қазақтың алғашқы ханы</label> <br>
+ <input type="radio" id="question3a" name="question3" value="a" required> Жәнібек хан
+ <input type="radio" id="question3с" name="question3" value="с"> Керей хан
+ <input type="radio" id="question3b" name="question3" value="b"> Қасым хан
+ <input type="radio" id="question3b" name="question3" value="b">Нұрасыл хан</li> 
+<br>
+     <li> 
+<label for="question4">Қазақтың соңғы ханы</label> <br>
+ <input type="radio" id="question4a" name="question4" value="a" required>Керей хан
+ <input type="radio" id="question4с" name="question4" value="с"> Хақназар хан
+ <input type="radio" id="question4b" name="question4" value="b"> Кенесары хан
+ <input type="radio" id="question4b" name="question4" value="b">Нұрсұлтан Ә.Н</li> 
+<br>
+    <li> 
+<label for="question5">Ұлы отан соғысы қашан басталды</label> <br>
+ <input type="radio" id="question5a" name="question5" value="a" required>1939ж
+ <input type="radio" id="question5с" name="question5" value="с"> 1938ж
+ <input type="radio" id="question5b" name="question5" value="b"> 1945ж
+ <input type="radio" id="question5b" name="question5" value="b">1941ж</li> 
+<br>
+<li> 
+<label for="question6">Қазақстанға өзінің отарлау саясатын жүргізген ел</label> <br>
+ <input type="radio" id="question6a" name="question6" value="a" required>Ресей
+ <input type="radio" id="question6с" name="question6" value="с"> Қытай
+ <input type="radio" id="question6b" name="question6" value="b"> АҚШ
+ <input type="radio" id="question6b" name="question6" value="b">Монғолия</li> 
+<br>
+ <li> 
+<label for="question7">Қазақстан тәуелсіздігін алған жыл</label> <br>
+ <input type="radio" id="question7a" name="question7" value="a" required>1992ж
+ <input type="radio" id="question7с" name="question7" value="с"> 1991ж
+ <input type="radio" id="question7b" name="question7" value="b"> 1993ж
+ <input type="radio" id="question7b" name="question7" value="b">1994</li> 
+<br>
+     <li> 
+<label for="question7">Рәміздеріміз қабылданған уақыт</label> <br>
+ <input type="radio" id="question7a" name="question7" value="a" required>1992ж 7 қараша
+ <input type="radio" id="question7с" name="question7" value="с"> 1991ж 5 маусым
+ <input type="radio" id="question7b" name="question7" value="b"> 1992ж 4 маусым
+ <input type="radio" id="question7b" name="question7" value="b">1994ж 7 маусым</li> 
+<br>
+ 
+<br>
+   
+     <button onclick="Function()">Жіберу</button>
+
+<script>
+  function Function() {
+      var result = confirm('Жауабыңызды жіберетініңізге сенімдісіз бе?');
+      if (result) {
+          // Пользователь нажал "НЕТ"
+          alert('Сәтті жіберілді,Рахмет!!!');
+      } else {
+          // Пользователь нажал "ДА"
+          alert('Жіберілмеді');
+      }
+  }
+</script>
+     
+    <button type="reset">Форманы тазарту</button> 
+    </INPUT>
+        </ol>
+    </form> 
+</body> 
+</html> 

@@ -1,0 +1,26 @@
+BODY {margin-left:300рх;} 
+Hl,H2,H3,H4,H5,H6 
+{ 
+background-color:azure;
+ text-align: center; 
+ color: black; 
+ font-family: "Times New Roman"; 
+}
+h2{
+    background-color: tan;
+     color: navy;
+}
+strong{
+    color: darkgreen;
+    font-family: "Arial Cyr"
+}
+h3{
+    color: green;
+}
+button{
+   
+    background-color: gold;
+}
+p{
+    background-color:azure;
+}
